@@ -1,82 +1,94 @@
-# 🤖 Jarvis - Assistente Pessoal Inteligente
+# 🤖 Maestro - Assistente Pessoal Inteligente
+
+<p align="center">
+  <strong>Assistente modular para automação, voz e integração com IA</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+</p>
+
+---
 
 ## 📌 Sobre o projeto
 
-O **maestro** é um assistente pessoal inteligente desenvolvido com o objetivo de automatizar tarefas do dia a dia por meio de comandos de voz ou texto.
+> O **Maestro** é um assistente pessoal inteligente projetado para automatizar tarefas do dia a dia utilizando comandos de **voz** ou **texto**.
 
-Este projeto é uma iniciativa de aprendizado focada em inteligência artificial, automação e integração de sistemas, com a ambição de evoluir gradualmente para um assistente cada vez mais capaz.
+Este projeto tem como foco o desenvolvimento prático em:
+
+* Inteligência Artificial
+* Automação de sistemas
+* Integração com APIs externas
+
+A proposta é evoluir de forma incremental, construindo um sistema cada vez mais robusto e extensível.
 
 ---
 
 ## 🚀 Objetivos
 
-* Criar um assistente que responda a comandos de voz ou texto
-* Automatizar tarefas no computador
-* Integrar com APIs externas (clima, notícias, etc.)
-* Executar scripts e rotinas personalizadas
-* Evoluir continuamente com novas funcionalidades
+* 🎯 Criar um assistente responsivo a comandos de voz e texto
+* ⚙️ Automatizar tarefas no sistema operacional
+* 🌐 Integrar com APIs externas (clima, notícias, etc.)
+* 🧩 Executar rotinas personalizadas
+* 📈 Evoluir continuamente com novas capacidades
 
 ---
 
-## 🧠 Funcionalidades (atuais ou planejadas)
+## 🧠 Funcionalidades
 
-* 🎤 Reconhecimento de voz
-* 💬 Respostas em linguagem natural
-* 🌐 Busca na internet
-* 🖥️ Automação de tarefas no sistema
-* 📅 Gerenciamento de agenda
-* 📂 Manipulação de arquivos
-* 🔌 Integração com APIs externas
-* 🧩 Arquitetura modular (plugins)
+### 🔹 Atuais / Planejadas
+
+* 🎤 **Reconhecimento de voz**
+* 💬 **Respostas em linguagem natural**
+* 🌐 **Busca na internet**
+* 🖥️ **Automação de tarefas**
+* 📅 **Gerenciamento de agenda**
+* 📂 **Manipulação de arquivos**
+* 🔌 **Integração com APIs**
+* 🧩 **Arquitetura modular (plugins)**
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-* Python
-* APIs de IA (como groq)
-* Speech Recognition
-* Text-to-Speech (TTS)
-* Automação (pyautogui, os, etc.)
+| Categoria | Tecnologia              |
+| --------- | ----------------------- |
+| Linguagem | Python                  |
+| IA / NLP  | Groq API                |
+| Voz       | SpeechRecognition / TTS |
+| Automação | PyAutoGUI, OS           |
+| Estrutura | Arquitetura modular     |
 
 ---
 
 ## 📦 Estrutura do projeto
 
-```
+```bash
 maestro/
 │── core/            # Lógica principal do assistente
-│── modules/         # Funcionalidades específicas (plugins)
+│── modules/         # Plugins de funcionalidades
 │── voice/           # Entrada e saída de voz
 │── utils/           # Funções auxiliares
-│── main.py          # Ponto de entrada
+│── main.py          # Entry point
 ```
 
 ---
 
 ## ⚙️ Como executar
 
-1. Clone o repositório:
+### 🔧 Instalação
 
-```
+```bash
 git clone https://github.com/allan-max/maestro-voz.git
-```
-
-2. Acesse a pasta:
-
-```
 cd maestro
-```
-
-3. Instale as dependências:
-
-```
 pip install -r requirements.txt
 ```
 
-4. Execute:
+### ▶️ Execução
 
-```
+```bash
 python main.py
 ```
 
@@ -84,26 +96,49 @@ python main.py
 
 ## 💡 Exemplos de comandos
 
-* "Abrir navegador"
-* "Pesquisar sobre inteligência artificial"
-* "Que horas são?"
-* "Criar um arquivo chamado teste.txt"
+```text
+"Abrir navegador"
+"Pesquisar sobre inteligência artificial"
+"Que horas são?"
+"Criar um arquivo chamado teste.txt"
+```
 
 ---
 
+## ⚠️ Status do projeto
 
-## ⚠️ Aviso
-
-Este projeto está em desenvolvimento e pode conter bugs ou funcionalidades incompletas.
+> 🚧 **Em desenvolvimento ativo**
+> Algumas funcionalidades podem estar incompletas ou instáveis.
 
 ---
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas! Sinta-se livre para abrir issues ou enviar pull requests.
+Contribuições são bem-vindas.
+
+```bash
+# fluxo básico
+fork → branch → commit → pull request
+```
 
 ---
 
-## ✨ Visão futura
+## 🔮 Visão futura
 
-Transformar o Jarvis em um assistente pessoal completo, capaz de interagir de forma natural e auxiliar em diversas atividades do dia a dia.
+* Interface gráfica (GUI)
+* Memória contextual
+* Controle por dispositivos móveis
+* Integração com IoT
+* Execução remota
+
+---
+
+## 📜 Licença
+
+Distribuído sob a licença **MIT**.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Allan Max**
