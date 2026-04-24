@@ -1,94 +1,65 @@
-# 🤖 Maestro - Assistente Pessoal Inteligente
+# 🤖 Maestro
 
-<p align="center">
-  <strong>Assistente modular para automação, voz e integração com IA</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" />
-  <img src="https://img.shields.io/badge/license-MIT-green" />
-</p>
+> Assistente pessoal inteligente focado em automação, comandos de voz e integração com IA.
+> Projeto desenvolvido com o objetivo de evoluir continuamente em direção a um sistema modular, escalável e funcional.
 
 ---
 
-## 📌 Sobre o projeto
+## 🚀 Sobre o projeto
 
-> O **Maestro** é um assistente pessoal inteligente projetado para automatizar tarefas do dia a dia utilizando comandos de **voz** ou **texto**.
+O **Maestro** é um assistente virtual que permite executar tarefas por meio de comandos de **voz** ou **texto**, com foco em produtividade e automação.
 
-Este projeto tem como foco o desenvolvimento prático em:
+🔎 Este projeto foi desenvolvido com foco em:
 
-* Inteligência Artificial
-* Automação de sistemas
-* Integração com APIs externas
-
-A proposta é evoluir de forma incremental, construindo um sistema cada vez mais robusto e extensível.
-
----
-
-## 🚀 Objetivos
-
-* 🎯 Criar um assistente responsivo a comandos de voz e texto
-* ⚙️ Automatizar tarefas no sistema operacional
-* 🌐 Integrar com APIs externas (clima, notícias, etc.)
-* 🧩 Executar rotinas personalizadas
-* 📈 Evoluir continuamente com novas capacidades
-
----
-
-## 🧠 Funcionalidades
-
-### 🔹 Atuais / Planejadas
-
-* 🎤 **Reconhecimento de voz**
-* 💬 **Respostas em linguagem natural**
-* 🌐 **Busca na internet**
-* 🖥️ **Automação de tarefas**
-* 📅 **Gerenciamento de agenda**
-* 📂 **Manipulação de arquivos**
-* 🔌 **Integração com APIs**
-* 🧩 **Arquitetura modular (plugins)**
+* 🎯 Automação de tarefas
+* 🧠 Integração com inteligência artificial
+* ⚙️ Arquitetura modular
+* 📈 Evolução contínua
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-| Categoria | Tecnologia              |
-| --------- | ----------------------- |
-| Linguagem | Python                  |
-| IA / NLP  | Groq API                |
-| Voz       | SpeechRecognition / TTS |
-| Automação | PyAutoGUI, OS           |
-| Estrutura | Arquitetura modular     |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Groq_API-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SpeechRecognition-FF6F00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/TTS-4CAF50?style=for-the-badge"/>
+</p>
+
+---
+
+## 🧠 Funcionalidades
+
+* 🎤 **Reconhecimento de voz**
+* 💬 **Respostas em linguagem natural**
+* 🖥️ **Automação de tarefas**
+* 📂 **Manipulação de arquivos**
+* 🌐 **Busca na internet**
+* 🔌 **Integração com APIs**
+* 🧩 **Sistema modular (plugins)**
 
 ---
 
 ## 📦 Estrutura do projeto
 
-```bash
+```bash id="6azk21"
 maestro/
-│── core/            # Lógica principal do assistente
+│── core/            # Núcleo do assistente
 │── modules/         # Plugins de funcionalidades
 │── voice/           # Entrada e saída de voz
 │── utils/           # Funções auxiliares
-│── main.py          # Entry point
+│── main.py          # Execução principal
 ```
 
 ---
 
 ## ⚙️ Como executar
 
-### 🔧 Instalação
-
-```bash
+```bash id="2k1g8q"
 git clone https://github.com/allan-max/maestro-voz.git
 cd maestro
 pip install -r requirements.txt
-```
-
-### ▶️ Execução
-
-```bash
 python main.py
 ```
 
@@ -96,49 +67,34 @@ python main.py
 
 ## 💡 Exemplos de comandos
 
-```text
+```text id="d9pl3x"
 "Abrir navegador"
 "Pesquisar sobre inteligência artificial"
+"Criar arquivo teste.txt"
 "Que horas são?"
-"Criar um arquivo chamado teste.txt"
 ```
 
 ---
 
-## ⚠️ Status do projeto
+## 🚧 Status
 
-> 🚧 **Em desenvolvimento ativo**
-> Algumas funcionalidades podem estar incompletas ou instáveis.
-
----
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas.
-
-```bash
-# fluxo básico
-fork → branch → commit → pull request
-```
+> Projeto em desenvolvimento contínuo
+> Novas funcionalidades estão sendo adicionadas regularmente.
 
 ---
 
-## 🔮 Visão futura
+## 🔮 Próximos passos
 
 * Interface gráfica (GUI)
 * Memória contextual
-* Controle por dispositivos móveis
 * Integração com IoT
-* Execução remota
-
----
-
-## 📜 Licença
-
-Distribuído sob a licença **MIT**.
+* Controle via celular
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Allan Max**
+<p align="center">
+  <strong>Allan Max</strong><br>
+  💻 Desenvolvedor em formação
+</p>
