@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o projeto
 
-O **Jarvis** é um assistente pessoal inteligente desenvolvido com o objetivo de automatizar tarefas do dia a dia por meio de comandos de voz ou texto.
+O **maestro** é um assistente pessoal inteligente desenvolvido com o objetivo de automatizar tarefas do dia a dia por meio de comandos de voz ou texto.
 
 Este projeto é uma iniciativa de aprendizado focada em inteligência artificial, automação e integração de sistemas, com a ambição de evoluir gradualmente para um assistente cada vez mais capaz.
 
@@ -34,7 +34,7 @@ Este projeto é uma iniciativa de aprendizado focada em inteligência artificial
 ## 🛠️ Tecnologias utilizadas
 
 * Python
-* APIs de IA (como OpenAI)
+* APIs de IA (como groq)
 * Speech Recognition
 * Text-to-Speech (TTS)
 * Automação (pyautogui, os, etc.)
@@ -44,7 +44,7 @@ Este projeto é uma iniciativa de aprendizado focada em inteligência artificial
 ## 📦 Estrutura do projeto
 
 ```
-jarvis/
+maestro/
 │── core/            # Lógica principal do assistente
 │── modules/         # Funcionalidades específicas (plugins)
 │── voice/           # Entrada e saída de voz
@@ -59,13 +59,13 @@ jarvis/
 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/jarvis.git
+git clone https://github.com/allan-max/maestro-voz.git
 ```
 
 2. Acesse a pasta:
 
 ```
-cd jarvis
+cd maestro
 ```
 
 3. Instale as dependências:
@@ -91,15 +91,6 @@ python main.py
 
 ---
 
-## 📈 Roadmap
-
-* [ ] Interface gráfica
-* [ ] Aprendizado com o usuário
-* [ ] Integração com dispositivos IoT
-* [ ] Controle remoto via celular
-* [ ] Sistema de memória contextual
-
----
 
 ## ⚠️ Aviso
 
@@ -110,12 +101,6 @@ Este projeto está em desenvolvimento e pode conter bugs ou funcionalidades inco
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se livre para abrir issues ou enviar pull requests.
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT.
 
 ---
 
